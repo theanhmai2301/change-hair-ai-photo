@@ -127,4 +127,9 @@
 
     <!-- Survey validation -->
     <string name="survey_min_select">कृपया कम से कम 1 विकल्प चुनें</string>
+
+    <!-- Home -->
+    <string name="home_title">✨ अपना हेयरस्टाइल बदलें</string>
+    <string name="home_title_accent">AI से</string>
+    <string name="home_subtitle">कुछ ही सेकंड में शानदार हेयरस्टाइल बनाएं</string>
 </resources>

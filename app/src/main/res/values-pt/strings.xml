@@ -127,4 +127,9 @@
 
     <!-- Survey validation -->
     <string name="survey_min_select">Selecione pelo menos 1 opção</string>
+
+    <!-- Home -->
+    <string name="home_title">✨ Transforme seu penteado</string>
+    <string name="home_title_accent">com IA</string>
+    <string name="home_subtitle">Crie penteados incríveis em segundos</string>
 </resources>

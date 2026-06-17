@@ -127,4 +127,9 @@
 
     <!-- Survey validation -->
     <string name="survey_min_select">少なくとも1つ選択してください</string>
+
+    <!-- Home -->
+    <string name="home_title">✨ 髪型を変えよう</string>
+    <string name="home_title_accent">AIで</string>
+    <string name="home_subtitle">数秒で素敵なヘアスタイルを作成</string>
 </resources>

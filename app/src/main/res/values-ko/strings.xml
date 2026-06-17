@@ -127,4 +127,9 @@
 
     <!-- Survey validation -->
     <string name="survey_min_select">최소 1개 이상 선택해 주세요</string>
+
+    <!-- Home -->
+    <string name="home_title">✨ 헤어스타일을 바꿔보세요</string>
+    <string name="home_title_accent">AI로</string>
+    <string name="home_subtitle">몇 초 만에 멋진 헤어스타일을 만들어 보세요</string>
 </resources>

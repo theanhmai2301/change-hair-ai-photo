@@ -127,4 +127,9 @@
 
     <!-- Survey validation -->
     <string name="survey_min_select">Sélectionnez au moins 1 option</string>
+
+    <!-- Home -->
+    <string name="home_title">✨ Transformez votre coiffure</string>
+    <string name="home_title_accent">avec l\'IA</string>
+    <string name="home_subtitle">Créez de superbes coiffures en quelques secondes</string>
 </resources>

@@ -127,4 +127,9 @@
 
     <!-- Survey validation -->
     <string name="survey_min_select">Pilih setidaknya 1 opsi</string>
+
+    <!-- Home -->
+    <string name="home_title">✨ Ubah gaya rambut Anda</string>
+    <string name="home_title_accent">dengan AI</string>
+    <string name="home_subtitle">Buat gaya rambut menakjubkan dalam hitungan detik</string>
 </resources>
