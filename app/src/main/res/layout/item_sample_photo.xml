@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.exo.hairstyleai.ui.widget.SquareFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:id="@+id/tileRoot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp"
+        android:background="@drawable/bg_preset_tile"
+        android:padding="2dp">
+
+        <ImageView
+            android:id="@+id/sampleImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_tile_image"
+            android:clipToOutline="true"
+            android:scaleType="centerCrop"
+            android:contentDescription="@null" />
+
+        <FrameLayout
+            android:id="@+id/sampleOverlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_check_overlay"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_check_circle"
+                android:tint="@color/white"
+                android:contentDescription="@string/cd_selected" />
+        </FrameLayout>
+    </FrameLayout>
+</com.exo.hairstyleai.ui.widget.SquareFrameLayout>

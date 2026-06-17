@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hairify: AI Hair Changer</string>
+
+    <!-- Picker screen -->
+    <string name="picker_title">Hairify: AI Hair Changer</string>
+    <string name="picker_subtitle">Chọn ảnh để đổi kiểu tóc</string>
+    <string name="tab_library">Thư viện</string>
+    <string name="tab_camera">Camera</string>
+    <string name="upload_from_device">Tải ảnh từ thiết bị</string>
+    <string name="sample_photos">ẢNH MẪU</string>
+    <string name="open_camera">Mở camera</string>
+    <string name="retake">Chụp lại</string>
+    <string name="next">Tiếp theo</string>
+    <string name="camera_hint">Chụp ảnh chân dung để thử kiểu tóc mới</string>
+    <string name="camera_failed">Không mở được camera. Vui lòng thử lại.</string>
+
+    <!-- Edit screen -->
+    <string name="edit_title">Thay đổi kiểu tóc</string>
+    <string name="edit_subtitle">28 kiểu tóc &amp; màu sắc AI</string>
+    <string name="tab_color">🎨 Màu tóc</string>
+    <string name="tab_cut">✂️ Kiểu cắt</string>
+    <string name="hint_color">Chỉ đổi màu, giữ nguyên kiểu tóc của bạn.</string>
+    <string name="hint_cut">Đổi kiểu tóc, giữ màu tóc tự nhiên.</string>
+    <string name="apply_hair">Áp dụng Hair AI</string>
+    <string name="badge_unedited">Chưa chỉnh sửa</string>
+    <string name="badge_ai">AI Generated</string>
+    <string name="restore">Khôi phục ảnh gốc</string>
+    <string name="save">Lưu ảnh</string>
+    <string name="saved">Đã lưu ảnh vào thư viện</string>
+    <string name="save_failed">Không lưu được ảnh.</string>
+    <string name="presets_error">Không tải được danh sách kiểu tóc</string>
+    <string name="apply_error">Đã xảy ra lỗi, vui lòng thử lại.</string>
+
+    <!-- Dialogs -->
+    <string name="saved_title">Đã lưu ảnh</string>
+    <string name="saved_message">Ảnh đã được lưu vào thư viện. Bạn muốn chọn ảnh khác để tạo kiểu mới không?</string>
+    <string name="saved_pick_another">Chọn ảnh khác</string>
+    <string name="stay_here">Ở lại</string>
+    <string name="discard_title">Thoát chỉnh sửa?</string>
+    <string name="discard_message">Bạn sẽ mất kiểu tóc vừa tạo nếu thoát bây giờ. Bạn có chắc muốn thoát?</string>
+    <string name="discard_leave">Thoát</string>
+
+    <!-- Processing steps -->
+    <string name="step_analyze">Phân tích hình ảnh…</string>
+    <string name="step_face">Nhận diện khuôn mặt…</string>
+    <string name="step_apply">Áp dụng AI lên tóc…</string>
+    <string name="step_finish">Hoàn thiện chi tiết…</string>
+
+    <!-- Report -->
+    <string name="report">Báo cáo</string>
+    <string name="report_title">Báo cáo ảnh này</string>
+    <string name="report_subtitle">Cho chúng tôi biết kết quả AI có vấn đề gì.</string>
+    <string name="report_reason_inappropriate">Nội dung không phù hợp</string>
+    <string name="report_reason_face">Khuôn mặt bị sai hoặc méo</string>
+    <string name="report_reason_quality">Kết quả kém chất lượng</string>
+    <string name="report_reason_other">Khác</string>
+    <string name="report_send">Gửi báo cáo</string>
+    <string name="report_subject">Hairify: AI Hair Changer — Báo cáo ảnh</string>
+    <string name="report_body_prefix">Tôi muốn báo cáo một ảnh do AI tạo.</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Cài đặt</string>
+    <string name="settings_general">CHUNG</string>
+    <string name="settings_support">HỖ TRỢ</string>
+    <string name="settings_language">Ngôn ngữ</string>
+    <string name="settings_share">Chia sẻ ứng dụng</string>
+    <string name="settings_rate">Đánh giá ứng dụng</string>
+    <string name="settings_feedback">Gửi phản hồi</string>
+    <string name="settings_privacy">Chính sách bảo mật</string>
+    <string name="settings_theme">Giao diện</string>
+    <string name="theme_system">Hệ thống</string>
+    <string name="theme_light">Sáng</string>
+    <string name="theme_dark">Tối</string>
+    <string name="share_text">Thử Hairify: AI Hair Changer — đổi kiểu tóc và màu tóc bằng AI!</string>
+    <string name="feedback_subject">Hairify: AI Hair Changer — Phản hồi</string>
+
+    <!-- Language screen -->
+    <string name="language_title">Ngôn ngữ</string>
+    <string name="language_subtitle">Chọn ngôn ngữ của bạn</string>
+
+    <!-- Survey -->
+    <string name="survey_title">Bạn muốn thử điều gì nhất?</string>
+    <string name="survey_subtitle">Giúp chúng tôi gợi ý tốt hơn cho bạn</string>
+    <string name="survey_opt_color">Màu tóc</string>
+    <string name="survey_opt_cut">Kiểu cắt</string>
+    <string name="survey_opt_short">Tóc ngắn</string>
+    <string name="survey_opt_long">Tóc dài</string>
+    <string name="language_confirm">Xác nhận</string>
+    <string name="survey2_title">Phong cách của bạn?</string>
+    <string name="survey2_opt_natural">Tự nhiên</string>
+    <string name="survey2_opt_bold">Nổi bật</string>
+    <string name="survey2_opt_elegant">Thanh lịch</string>
+    <string name="survey2_opt_trendy">Thời thượng</string>
+    <string name="survey3_title">Mục tiêu của bạn?</string>
+    <string name="survey3_opt_newlook">Diện mạo mới</string>
+    <string name="survey3_opt_event">Dịp đặc biệt</string>
+    <string name="survey3_opt_fun">Chỉ để vui</string>
+    <string name="survey3_opt_confidence">Tự tin</string>
+
+    <!-- Onboarding -->
+    <string name="ob1_title">Đổi kiểu tóc với AI</string>
+    <string name="ob1_desc">Thử hơn 28 kiểu tóc và màu sắc chỉ trong vài giây.</string>
+    <string name="ob2_title">Giữ nguyên khuôn mặt</string>
+    <string name="ob2_desc">AI thay tóc nhưng vẫn giữ đúng gương mặt thật của bạn.</string>
+    <string name="ob3_title">Lưu &amp; chia sẻ</string>
+    <string name="ob3_desc">Lưu ảnh về máy và khoe với bạn bè.</string>
+    <string name="ob_start">Bắt đầu</string>
+
+    <!-- Permission -->
+    <string name="perm_title">Luôn cập nhật</string>
+    <string name="perm_desc">Cho phép thông báo để chúng tôi báo bạn khi có kiểu mới và khi ảnh của bạn đã sẵn sàng.</string>
+    <string name="perm_allow">Cho phép</string>
+    <string name="perm_switch">Bật thông báo</string>
+    <string name="perm_skip">Để sau</string>
+
+    <!-- Common -->
+    <string name="common_continue">Tiếp tục</string>
+    <string name="skip">Bỏ qua</string>
+
+    <!-- a11y -->
+    <string name="cd_back">Quay lại</string>
+    <string name="cd_preset">Kiểu tóc</string>
+    <string name="cd_selected">Đã chọn</string>
+    <string name="cd_settings">Cài đặt</string>
+    <string name="cd_report">Báo cáo ảnh</string>
+
+    <!-- Survey validation -->
+    <string name="survey_min_select">Hãy chọn ít nhất 1 lựa chọn</string>
+</resources>

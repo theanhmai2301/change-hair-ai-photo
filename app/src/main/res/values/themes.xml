@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- LIGHT theme. The dark variant is in values-night/themes.xml. Colours come
+         from the @color names, which flip via values / values-night. -->
+    <style name="Theme.HairStyleAI" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/accent</item>
+        <item name="colorPrimaryDark">@color/bg_bottom</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:colorBackground">@color/bg_bottom</item>
+        <item name="android:windowBackground">@color/bg_bottom</item>
+        <item name="android:windowSplashScreenBackground" tools:targetApi="31">@color/bg_bottom</item>
+        <item name="android:statusBarColor">@color/bg_top</item>
+        <item name="android:navigationBarColor">@color/bg_bottom</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_muted</item>
+        <item name="fontFamily">sans-serif</item>
+    </style>
+
+    <!-- System splash (Android 12+ back-ported via core-splashscreen). -->
+    <style name="Theme.HairStyleAI.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/accent</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_scissors</item>
+        <item name="postSplashScreenTheme">@style/Theme.HairStyleAI</item>
+    </style>
+</resources>
+

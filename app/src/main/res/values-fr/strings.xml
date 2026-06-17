@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hairify: AI Hair Changer</string>
+
+    <!-- Picker screen -->
+    <string name="picker_title">Hairify: AI Hair Changer</string>
+    <string name="picker_subtitle">Choisissez une photo pour changer de coiffure</string>
+    <string name="tab_library">Galerie</string>
+    <string name="tab_camera">Appareil photo</string>
+    <string name="upload_from_device">Importer depuis l\'appareil</string>
+    <string name="sample_photos">EXEMPLES DE PHOTOS</string>
+    <string name="open_camera">Ouvrir l\'appareil photo</string>
+    <string name="retake">Reprendre</string>
+    <string name="next">Suivant</string>
+    <string name="camera_hint">Prenez une photo de portrait pour essayer une nouvelle coiffure</string>
+    <string name="camera_failed">Impossible d\'ouvrir l\'appareil photo. Veuillez réessayer.</string>
+
+    <!-- Edit screen -->
+    <string name="edit_title">Changer de coiffure</string>
+    <string name="edit_subtitle">28 coiffures &amp; couleurs par IA</string>
+    <string name="tab_color">🎨 Couleur des cheveux</string>
+    <string name="tab_cut">✂️ Coiffure</string>
+    <string name="hint_color">Change uniquement la couleur — conserve votre coupe actuelle.</string>
+    <string name="hint_cut">Change la coupe — conserve votre couleur naturelle.</string>
+    <string name="apply_hair">Appliquer l\'IA capillaire</string>
+    <string name="badge_unedited">Non modifiée</string>
+    <string name="badge_ai">Générée par IA</string>
+    <string name="restore">Restaurer l\'original</string>
+    <string name="save">Enregistrer la photo</string>
+    <string name="saved">Enregistrée dans la galerie</string>
+    <string name="save_failed">Impossible d\'enregistrer la photo.</string>
+    <string name="presets_error">Impossible de charger les coiffures</string>
+    <string name="apply_error">Une erreur s\'est produite, veuillez réessayer.</string>
+
+    <!-- Dialogs -->
+    <string name="saved_title">Photo enregistrée</string>
+    <string name="saved_message">Votre photo a été enregistrée dans la galerie. Voulez-vous choisir une autre photo ?</string>
+    <string name="saved_pick_another">Choisir une autre</string>
+    <string name="stay_here">Rester</string>
+    <string name="discard_title">Abandonner les modifications ?</string>
+    <string name="discard_message">Vous perdrez la coiffure que vous venez de créer si vous quittez maintenant. Êtes-vous sûr ?</string>
+    <string name="discard_leave">Quitter</string>
+
+    <!-- Processing steps -->
+    <string name="step_analyze">Analyse de l\'image…</string>
+    <string name="step_face">Détection du visage…</string>
+    <string name="step_apply">Application de l\'IA aux cheveux…</string>
+    <string name="step_finish">Finalisation des détails…</string>
+
+    <!-- Report -->
+    <string name="report">Signaler</string>
+    <string name="report_title">Signaler cette image</string>
+    <string name="report_subtitle">Dites-nous ce qui ne va pas avec le résultat généré.</string>
+    <string name="report_reason_inappropriate">Contenu inapproprié</string>
+    <string name="report_reason_face">Le visage est incorrect ou déformé</string>
+    <string name="report_reason_quality">Résultat de mauvaise qualité</string>
+    <string name="report_reason_other">Autre</string>
+    <string name="report_send">Envoyer le signalement</string>
+    <string name="report_subject">Hairify: AI Hair Changer — Signalement d\'image</string>
+    <string name="report_body_prefix">Je souhaite signaler une image générée.</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Paramètres</string>
+    <string name="settings_general">GÉNÉRAL</string>
+    <string name="settings_support">ASSISTANCE</string>
+    <string name="settings_language">Langue</string>
+    <string name="settings_share">Partager l\'application</string>
+    <string name="settings_rate">Noter l\'application</string>
+    <string name="settings_feedback">Envoyer un commentaire</string>
+    <string name="settings_privacy">Politique de confidentialité</string>
+    <string name="settings_theme">Thème</string>
+    <string name="theme_system">Système</string>
+    <string name="theme_light">Clair</string>
+    <string name="theme_dark">Sombre</string>
+    <string name="share_text">Essayez Hairify: AI Hair Changer — changez de coiffure et de couleur grâce à l\'IA !</string>
+    <string name="feedback_subject">Hairify: AI Hair Changer — Commentaires</string>
+
+    <!-- Language screen -->
+    <string name="language_title">Langue</string>
+    <string name="language_subtitle">Choisissez votre langue</string>
+
+    <!-- Survey -->
+    <string name="survey_title">Que voulez-vous essayer ?</string>
+    <string name="survey_subtitle">Aidez-nous à mieux vous conseiller</string>
+    <string name="survey_opt_color">Couleur</string>
+    <string name="survey_opt_cut">Coupe</string>
+    <string name="survey_opt_short">Cheveux courts</string>
+    <string name="survey_opt_long">Cheveux longs</string>
+    <string name="language_confirm">Confirmer</string>
+    <string name="survey2_title">Quel est votre style ?</string>
+    <string name="survey2_opt_natural">Naturel</string>
+    <string name="survey2_opt_bold">Audacieux</string>
+    <string name="survey2_opt_elegant">Élégant</string>
+    <string name="survey2_opt_trendy">Tendance</string>
+    <string name="survey3_title">Quel est votre objectif ?</string>
+    <string name="survey3_opt_newlook">Nouveau look</string>
+    <string name="survey3_opt_event">Événement spécial</string>
+    <string name="survey3_opt_fun">Juste pour le fun</string>
+    <string name="survey3_opt_confidence">Confiance</string>
+
+    <!-- Onboarding -->
+    <string name="ob1_title">Changez vos cheveux grâce à l\'IA</string>
+    <string name="ob1_desc">Essayez plus de 28 coiffures et couleurs en quelques secondes.</string>
+    <string name="ob2_title">Votre visage, préservé</string>
+    <string name="ob2_desc">L\'IA change les cheveux tout en conservant votre vrai visage.</string>
+    <string name="ob3_title">Enregistrer &amp; partager</string>
+    <string name="ob3_desc">Enregistrez les résultats dans votre galerie et montrez-les à vos amis.</string>
+    <string name="ob_start">Commencer</string>
+
+    <!-- Permission -->
+    <string name="perm_title">Restez informé</string>
+    <string name="perm_desc">Autorisez les notifications pour que nous puissions vous prévenir lorsque de nouveaux styles arrivent et que vos modifications sont prêtes.</string>
+    <string name="perm_allow">Autoriser</string>
+    <string name="perm_switch">Activer les notifications</string>
+    <string name="perm_skip">Plus tard</string>
+
+    <!-- Common -->
+    <string name="common_continue">Continuer</string>
+    <string name="skip">Passer</string>
+
+    <!-- a11y -->
+    <string name="cd_back">Retour</string>
+    <string name="cd_preset">Coiffure</string>
+    <string name="cd_selected">Sélectionnée</string>
+    <string name="cd_settings">Paramètres</string>
+    <string name="cd_report">Signaler l\'image</string>
+
+    <!-- Survey validation -->
+    <string name="survey_min_select">Sélectionnez au moins 1 option</string>
+</resources>

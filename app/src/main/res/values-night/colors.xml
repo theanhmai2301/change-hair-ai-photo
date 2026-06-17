@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand accent (same in both themes) -->
+    <color name="accent">#06D6A0</color>
+    <color name="accent_dark">#059669</color>
+    <color name="accent_12">#1F06D6A0</color>
+    <color name="accent_25">#4006D6A0</color>
+
+    <!-- Dark surfaces / background -->
+    <color name="bg_top">#13131A</color>
+    <color name="bg_bottom">#0A0A0F</color>
+    <color name="surface">#1E1E2A</color>
+    <color name="surface_deep">#0D0D15</color>
+
+    <!-- Text -->
+    <color name="text_primary">#F0F0F5</color>
+    <color name="text_muted">#8888AA</color>
+    <color name="text_disabled">#444460</color>
+
+    <!-- Status -->
+    <color name="danger">#EF4444</color>
+    <color name="danger_soft">#F87171</color>
+    <color name="danger_12">#1FEF4444</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="hairline">#12FFFFFF</color>
+</resources>

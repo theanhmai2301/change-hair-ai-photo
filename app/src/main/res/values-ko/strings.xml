@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hairify: AI Hair Changer</string>
+
+    <!-- Picker screen -->
+    <string name="picker_title">Hairify: AI Hair Changer</string>
+    <string name="picker_subtitle">헤어스타일을 바꿀 사진을 선택하세요</string>
+    <string name="tab_library">갤러리</string>
+    <string name="tab_camera">카메라</string>
+    <string name="upload_from_device">기기에서 업로드</string>
+    <string name="sample_photos">샘플 사진</string>
+    <string name="open_camera">카메라 열기</string>
+    <string name="retake">다시 촬영</string>
+    <string name="next">다음</string>
+    <string name="camera_hint">새로운 헤어스타일을 시도하려면 인물 사진을 촬영하세요</string>
+    <string name="camera_failed">카메라를 열 수 없습니다. 다시 시도해 주세요.</string>
+
+    <!-- Edit screen -->
+    <string name="edit_title">헤어스타일 변경</string>
+    <string name="edit_subtitle">28가지 AI 헤어스타일 &amp; 컬러</string>
+    <string name="tab_color">🎨 머리 색상</string>
+    <string name="tab_cut">✂️ 헤어스타일</string>
+    <string name="hint_color">색상만 변경하고 현재 컷은 그대로 유지합니다.</string>
+    <string name="hint_cut">컷을 변경하고 자연스러운 색상은 그대로 유지합니다.</string>
+    <string name="apply_hair">Hair AI 적용</string>
+    <string name="badge_unedited">편집되지 않음</string>
+    <string name="badge_ai">AI 생성됨</string>
+    <string name="restore">원본 복원</string>
+    <string name="save">사진 저장</string>
+    <string name="saved">갤러리에 저장됨</string>
+    <string name="save_failed">사진을 저장할 수 없습니다.</string>
+    <string name="presets_error">헤어스타일을 불러올 수 없습니다</string>
+    <string name="apply_error">문제가 발생했습니다. 다시 시도해 주세요.</string>
+
+    <!-- Dialogs -->
+    <string name="saved_title">사진 저장됨</string>
+    <string name="saved_message">사진이 갤러리에 저장되었습니다. 다른 사진을 선택하시겠습니까?</string>
+    <string name="saved_pick_another">다른 사진 선택</string>
+    <string name="stay_here">머무르기</string>
+    <string name="discard_title">편집 내용을 삭제하시겠습니까?</string>
+    <string name="discard_message">지금 나가면 방금 만든 헤어스타일이 사라집니다. 계속하시겠습니까?</string>
+    <string name="discard_leave">나가기</string>
+
+    <!-- Processing steps -->
+    <string name="step_analyze">이미지 분석 중…</string>
+    <string name="step_face">얼굴 인식 중…</string>
+    <string name="step_apply">머리에 AI 적용 중…</string>
+    <string name="step_finish">세부 사항 마무리 중…</string>
+
+    <!-- Report -->
+    <string name="report">신고</string>
+    <string name="report_title">이미지 신고</string>
+    <string name="report_subtitle">생성된 결과에서 무엇이 잘못되었는지 알려 주세요.</string>
+    <string name="report_reason_inappropriate">부적절한 콘텐츠</string>
+    <string name="report_reason_face">얼굴이 잘못되었거나 왜곡됨</string>
+    <string name="report_reason_quality">결과 품질이 낮음</string>
+    <string name="report_reason_other">기타</string>
+    <string name="report_send">신고 보내기</string>
+    <string name="report_subject">Hairify: AI Hair Changer — 이미지 신고</string>
+    <string name="report_body_prefix">생성된 이미지를 신고하고 싶습니다.</string>
+
+    <!-- Settings -->
+    <string name="settings_title">설정</string>
+    <string name="settings_general">일반</string>
+    <string name="settings_support">지원</string>
+    <string name="settings_language">언어</string>
+    <string name="settings_share">앱 공유</string>
+    <string name="settings_rate">앱 평가</string>
+    <string name="settings_feedback">의견 보내기</string>
+    <string name="settings_privacy">개인정보 처리방침</string>
+    <string name="settings_theme">테마</string>
+    <string name="theme_system">시스템</string>
+    <string name="theme_light">라이트</string>
+    <string name="theme_dark">다크</string>
+    <string name="share_text">Hairify: AI Hair Changer를 사용해 보세요 — AI로 헤어스타일과 색상을 바꿔 보세요!</string>
+    <string name="feedback_subject">Hairify: AI Hair Changer — 의견</string>
+
+    <!-- Language screen -->
+    <string name="language_title">언어</string>
+    <string name="language_subtitle">언어를 선택하세요</string>
+
+    <!-- Survey -->
+    <string name="survey_title">무엇을 시도해 보고 싶나요?</string>
+    <string name="survey_subtitle">더 나은 추천을 위해 알려주세요</string>
+    <string name="survey_opt_color">헤어 컬러</string>
+    <string name="survey_opt_cut">헤어컷</string>
+    <string name="survey_opt_short">단발머리</string>
+    <string name="survey_opt_long">긴 머리</string>
+    <string name="language_confirm">확인</string>
+    <string name="survey2_title">당신의 분위기는?</string>
+    <string name="survey2_opt_natural">내추럴</string>
+    <string name="survey2_opt_bold">볼드</string>
+    <string name="survey2_opt_elegant">우아함</string>
+    <string name="survey2_opt_trendy">트렌디</string>
+    <string name="survey3_title">당신의 목표는?</string>
+    <string name="survey3_opt_newlook">새로운 룩</string>
+    <string name="survey3_opt_event">특별한 행사</string>
+    <string name="survey3_opt_fun">그냥 재미로</string>
+    <string name="survey3_opt_confidence">자신감</string>
+
+    <!-- Onboarding -->
+    <string name="ob1_title">AI로 머리를 바꿔 보세요</string>
+    <string name="ob1_desc">28가지 이상의 헤어스타일과 색상을 단 몇 초 만에 시도해 보세요.</string>
+    <string name="ob2_title">당신의 얼굴은 그대로</string>
+    <string name="ob2_desc">AI가 실제 얼굴은 유지하면서 머리만 바꿔 줍니다.</string>
+    <string name="ob3_title">저장 &amp; 공유</string>
+    <string name="ob3_desc">결과를 갤러리에 저장하고 친구들에게 보여 주세요.</string>
+    <string name="ob_start">시작하기</string>
+
+    <!-- Permission -->
+    <string name="perm_title">소식을 받아보세요</string>
+    <string name="perm_desc">새로운 스타일이 출시되거나 편집이 완료되면 알려드릴 수 있도록 알림을 허용해 주세요.</string>
+    <string name="perm_allow">허용</string>
+    <string name="perm_switch">알림 켜기</string>
+    <string name="perm_skip">나중에</string>
+
+    <!-- Common -->
+    <string name="common_continue">계속</string>
+    <string name="skip">건너뛰기</string>
+
+    <!-- a11y -->
+    <string name="cd_back">뒤로</string>
+    <string name="cd_preset">헤어스타일</string>
+    <string name="cd_selected">선택됨</string>
+    <string name="cd_settings">설정</string>
+    <string name="cd_report">이미지 신고</string>
+
+    <!-- Survey validation -->
+    <string name="survey_min_select">최소 1개 이상 선택해 주세요</string>
+</resources>

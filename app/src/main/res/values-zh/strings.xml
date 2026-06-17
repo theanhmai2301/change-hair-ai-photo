@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hairify: AI Hair Changer</string>
+
+    <!-- Picker screen -->
+    <string name="picker_title">Hairify: AI Hair Changer</string>
+    <string name="picker_subtitle">选择一张照片来改变你的发型</string>
+    <string name="tab_library">相册</string>
+    <string name="tab_camera">相机</string>
+    <string name="upload_from_device">从设备上传</string>
+    <string name="sample_photos">示例照片</string>
+    <string name="open_camera">打开相机</string>
+    <string name="retake">重拍</string>
+    <string name="next">下一步</string>
+    <string name="camera_hint">拍一张人像照片来尝试新发型</string>
+    <string name="camera_failed">无法打开相机，请重试。</string>
+
+    <!-- Edit screen -->
+    <string name="edit_title">更换发型</string>
+    <string name="edit_subtitle">28 种 AI 发型和颜色</string>
+    <string name="tab_color">🎨 发色</string>
+    <string name="tab_cut">✂️ 发型</string>
+    <string name="hint_color">仅改变颜色，保留你当前的发型。</string>
+    <string name="hint_cut">改变发型，保留你的自然发色。</string>
+    <string name="apply_hair">应用 Hair AI</string>
+    <string name="badge_unedited">未编辑</string>
+    <string name="badge_ai">AI 生成</string>
+    <string name="restore">恢复原图</string>
+    <string name="save">保存照片</string>
+    <string name="saved">已保存到相册</string>
+    <string name="save_failed">无法保存照片。</string>
+    <string name="presets_error">无法加载发型</string>
+    <string name="apply_error">出了点问题，请重试。</string>
+
+    <!-- Dialogs -->
+    <string name="saved_title">照片已保存</string>
+    <string name="saved_message">你的照片已保存到相册。是否要再选一张照片？</string>
+    <string name="saved_pick_another">再选一张</string>
+    <string name="stay_here">留在这里</string>
+    <string name="discard_title">放弃编辑？</string>
+    <string name="discard_message">如果现在离开，你刚刚创建的发型将会丢失。确定要离开吗？</string>
+    <string name="discard_leave">离开</string>
+
+    <!-- Processing steps -->
+    <string name="step_analyze">正在分析图像…</string>
+    <string name="step_face">正在检测人脸…</string>
+    <string name="step_apply">正在为头发应用 AI…</string>
+    <string name="step_finish">正在完善细节…</string>
+
+    <!-- Report -->
+    <string name="report">举报</string>
+    <string name="report_title">举报这张图片</string>
+    <string name="report_subtitle">告诉我们生成结果有什么问题。</string>
+    <string name="report_reason_inappropriate">不当内容</string>
+    <string name="report_reason_face">人脸错误或失真</string>
+    <string name="report_reason_quality">结果质量差</string>
+    <string name="report_reason_other">其他</string>
+    <string name="report_send">发送举报</string>
+    <string name="report_subject">Hairify: AI Hair Changer — 图片举报</string>
+    <string name="report_body_prefix">我想举报一张生成的图片。</string>
+
+    <!-- Settings -->
+    <string name="settings_title">设置</string>
+    <string name="settings_general">通用</string>
+    <string name="settings_support">支持</string>
+    <string name="settings_language">语言</string>
+    <string name="settings_share">分享应用</string>
+    <string name="settings_rate">评价应用</string>
+    <string name="settings_feedback">发送反馈</string>
+    <string name="settings_privacy">隐私政策</string>
+    <string name="settings_theme">主题</string>
+    <string name="theme_system">跟随系统</string>
+    <string name="theme_light">浅色</string>
+    <string name="theme_dark">深色</string>
+    <string name="share_text">试试 Hairify: AI Hair Changer — 用 AI 改变你的发型和发色！</string>
+    <string name="feedback_subject">Hairify: AI Hair Changer — 反馈</string>
+
+    <!-- Language screen -->
+    <string name="language_title">语言</string>
+    <string name="language_subtitle">选择你的语言</string>
+
+    <!-- Survey -->
+    <string name="survey_title">你最想尝试什么？</string>
+    <string name="survey_subtitle">帮助我们为你提供更好的建议</string>
+    <string name="survey_opt_color">发色</string>
+    <string name="survey_opt_cut">发型</string>
+    <string name="survey_opt_short">短发</string>
+    <string name="survey_opt_long">长发</string>
+    <string name="language_confirm">确认</string>
+    <string name="survey2_title">你的风格是？</string>
+    <string name="survey2_opt_natural">自然</string>
+    <string name="survey2_opt_bold">大胆</string>
+    <string name="survey2_opt_elegant">优雅</string>
+    <string name="survey2_opt_trendy">时尚</string>
+    <string name="survey3_title">你的目标是？</string>
+    <string name="survey3_opt_newlook">全新造型</string>
+    <string name="survey3_opt_event">特殊场合</string>
+    <string name="survey3_opt_fun">只是好玩</string>
+    <string name="survey3_opt_confidence">自信</string>
+
+    <!-- Onboarding -->
+    <string name="ob1_title">用 AI 改变你的发型</string>
+    <string name="ob1_desc">几秒钟即可尝试 28 种以上的发型和颜色。</string>
+    <string name="ob2_title">保留你的真实面容</string>
+    <string name="ob2_desc">AI 在保留你真实面容的同时更换发型。</string>
+    <string name="ob3_title">保存和分享</string>
+    <string name="ob3_desc">将结果保存到相册，分享给你的朋友。</string>
+    <string name="ob_start">开始使用</string>
+
+    <!-- Permission -->
+    <string name="perm_title">保持关注</string>
+    <string name="perm_desc">允许通知，这样我们就能在新造型上线和你的编辑完成时通知你。</string>
+    <string name="perm_allow">允许</string>
+    <string name="perm_switch">开启通知</string>
+    <string name="perm_skip">暂不</string>
+
+    <!-- Common -->
+    <string name="common_continue">继续</string>
+    <string name="skip">跳过</string>
+
+    <!-- a11y -->
+    <string name="cd_back">返回</string>
+    <string name="cd_preset">发型</string>
+    <string name="cd_selected">已选择</string>
+    <string name="cd_settings">设置</string>
+    <string name="cd_report">举报图片</string>
+
+    <!-- Survey validation -->
+    <string name="survey_min_select">请至少选择 1 项</string>
+</resources>

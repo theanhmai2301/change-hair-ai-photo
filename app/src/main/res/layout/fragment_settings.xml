@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:paddingHorizontal="20dp"
+    android:paddingTop="12dp"
+    android:paddingBottom="20dp">
+
+    <!-- Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingTop="8dp">
+
+        <FrameLayout
+            android:id="@+id/backButton"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_marginEnd="12dp"
+            android:background="@drawable/bg_icon_button"
+            android:clickable="true"
+            android:focusable="true">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_arrow_left"
+                android:tint="@color/text_primary"
+                android:contentDescription="@string/cd_back" />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_title"
+            android:textColor="@color/text_primary"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="12dp"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/SettingsSection"
+                android:text="@string/settings_general" />
+
+            <LinearLayout android:id="@+id/rowLanguage" style="@style/SettingsRow">
+                <FrameLayout style="@style/SettingsIconBadge">
+                    <ImageView style="@style/SettingsIcon" android:src="@drawable/ic_language" />
+                </FrameLayout>
+                <TextView style="@style/SettingsLabel" android:text="@string/settings_language" />
+                <ImageView style="@style/SettingsChevron" />
+            </LinearLayout>
+
+            <LinearLayout android:id="@+id/rowTheme" style="@style/SettingsRow">
+                <FrameLayout style="@style/SettingsIconBadge">
+                    <ImageView style="@style/SettingsIcon" android:src="@drawable/ic_theme" />
+                </FrameLayout>
+                <TextView style="@style/SettingsLabel" android:text="@string/settings_theme" />
+                <ImageView style="@style/SettingsChevron" />
+            </LinearLayout>
+
+            <TextView
+                style="@style/SettingsSection"
+                android:layout_marginTop="18dp"
+                android:text="@string/settings_support" />
+
+            <LinearLayout android:id="@+id/rowShare" style="@style/SettingsRow">
+                <FrameLayout style="@style/SettingsIconBadge">
+                    <ImageView style="@style/SettingsIcon" android:src="@drawable/ic_share" />
+                </FrameLayout>
+                <TextView style="@style/SettingsLabel" android:text="@string/settings_share" />
+                <ImageView style="@style/SettingsChevron" />
+            </LinearLayout>
+
+            <LinearLayout android:id="@+id/rowRate" style="@style/SettingsRow">
+                <FrameLayout style="@style/SettingsIconBadge">
+                    <ImageView style="@style/SettingsIcon" android:src="@drawable/ic_star" />
+                </FrameLayout>
+                <TextView style="@style/SettingsLabel" android:text="@string/settings_rate" />
+                <ImageView style="@style/SettingsChevron" />
+            </LinearLayout>
+
+            <LinearLayout android:id="@+id/rowFeedback" style="@style/SettingsRow">
+                <FrameLayout style="@style/SettingsIconBadge">
+                    <ImageView style="@style/SettingsIcon" android:src="@drawable/ic_mail" />
+                </FrameLayout>
+                <TextView style="@style/SettingsLabel" android:text="@string/settings_feedback" />
+                <ImageView style="@style/SettingsChevron" />
+            </LinearLayout>
+
+            <LinearLayout android:id="@+id/rowPrivacy" style="@style/SettingsRow">
+                <FrameLayout style="@style/SettingsIconBadge">
+                    <ImageView style="@style/SettingsIcon" android:src="@drawable/ic_shield" />
+                </FrameLayout>
+                <TextView style="@style/SettingsLabel" android:text="@string/settings_privacy" />
+                <ImageView style="@style/SettingsChevron" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

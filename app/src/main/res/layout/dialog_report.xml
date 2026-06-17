@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_dialog"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="22dp">
+
+    <ImageView
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="12dp"
+        android:src="@drawable/ic_flag"
+        android:tint="@color/danger_soft"
+        android:contentDescription="@null"
+        tools:ignore="UseAppTint" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/report_title"
+        android:textColor="@color/text_primary"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:gravity="center"
+        android:text="@string/report_subtitle"
+        android:textColor="@color/text_muted"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical">
+
+        <TextView android:id="@+id/reason1" style="@style/SurveyOption" android:text="@string/report_reason_inappropriate" />
+        <TextView android:id="@+id/reason2" style="@style/SurveyOption" android:text="@string/report_reason_face" />
+        <TextView android:id="@+id/reason3" style="@style/SurveyOption" android:text="@string/report_reason_quality" />
+        <TextView android:id="@+id/reason4" style="@style/SurveyOption" android:text="@string/report_reason_other" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/sendButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/bg_dialog_btn_accent"
+        android:clickable="true"
+        android:enabled="false"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="@string/report_send"
+        android:textColor="@color/text_disabled"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+</LinearLayout>

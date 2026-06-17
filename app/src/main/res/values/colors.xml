@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LIGHT theme palette. The dark values live in values-night/colors.xml; the
+     same names resolve to these in light mode. Accent / danger / white stay the
+     same in both themes (they sit on coloured surfaces). -->
+<resources>
+    <!-- Brand accent (same in both themes) -->
+    <color name="accent">#06D6A0</color>
+    <color name="accent_dark">#059669</color>
+    <color name="accent_12">#1F06D6A0</color>
+    <color name="accent_25">#4006D6A0</color>
+
+    <!-- Light surfaces / background (white cards on a soft grey page) -->
+    <color name="bg_top">#FAFBFD</color>
+    <color name="bg_bottom">#EDEFF4</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_deep">#E8EAEF</color>
+
+    <!-- Text -->
+    <color name="text_primary">#16161F</color>
+    <color name="text_muted">#6B6C80</color>
+    <color name="text_disabled">#B4B5C2</color>
+
+    <!-- Status -->
+    <color name="danger">#EF4444</color>
+    <color name="danger_soft">#DC2626</color>
+    <color name="danger_12">#1FEF4444</color>
+
+    <!-- On-accent text / icons stay white in both themes -->
+    <color name="white">#FFFFFF</color>
+    <color name="hairline">#1A000000</color>
+</resources>

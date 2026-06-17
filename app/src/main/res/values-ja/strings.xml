@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hairify: AI Hair Changer</string>
+
+    <!-- Picker screen -->
+    <string name="picker_title">Hairify: AI Hair Changer</string>
+    <string name="picker_subtitle">ヘアスタイルを変える写真を選んでください</string>
+    <string name="tab_library">ライブラリ</string>
+    <string name="tab_camera">カメラ</string>
+    <string name="upload_from_device">デバイスからアップロード</string>
+    <string name="sample_photos">サンプル写真</string>
+    <string name="open_camera">カメラを起動</string>
+    <string name="retake">撮り直す</string>
+    <string name="next">次へ</string>
+    <string name="camera_hint">新しいヘアスタイルを試すにはポートレート写真を撮影してください</string>
+    <string name="camera_failed">カメラを起動できませんでした。もう一度お試しください。</string>
+
+    <!-- Edit screen -->
+    <string name="edit_title">ヘアスタイルを変更</string>
+    <string name="edit_subtitle">28種類のAIヘアスタイル &amp; カラー</string>
+    <string name="tab_color">🎨 髪の色</string>
+    <string name="tab_cut">✂️ ヘアスタイル</string>
+    <string name="hint_color">色だけを変更します — 今の髪型はそのままです。</string>
+    <string name="hint_cut">髪型を変更します — 自然な髪色はそのままです。</string>
+    <string name="apply_hair">Hair AIを適用</string>
+    <string name="badge_unedited">未編集</string>
+    <string name="badge_ai">AI生成</string>
+    <string name="restore">元に戻す</string>
+    <string name="save">写真を保存</string>
+    <string name="saved">ギャラリーに保存しました</string>
+    <string name="save_failed">写真を保存できませんでした。</string>
+    <string name="presets_error">ヘアスタイルを読み込めませんでした</string>
+    <string name="apply_error">問題が発生しました。もう一度お試しください。</string>
+
+    <!-- Dialogs -->
+    <string name="saved_title">写真を保存しました</string>
+    <string name="saved_message">写真をギャラリーに保存しました。別の写真を選びますか？</string>
+    <string name="saved_pick_another">別の写真を選ぶ</string>
+    <string name="stay_here">このまま</string>
+    <string name="discard_title">編集を破棄しますか？</string>
+    <string name="discard_message">今移動すると、作成したばかりのヘアスタイルが失われます。よろしいですか？</string>
+    <string name="discard_leave">移動する</string>
+
+    <!-- Processing steps -->
+    <string name="step_analyze">画像を解析中…</string>
+    <string name="step_face">顔を検出中…</string>
+    <string name="step_apply">髪にAIを適用中…</string>
+    <string name="step_finish">仕上げ中…</string>
+
+    <!-- Report -->
+    <string name="report">報告</string>
+    <string name="report_title">この画像を報告</string>
+    <string name="report_subtitle">生成された結果の問題点を教えてください。</string>
+    <string name="report_reason_inappropriate">不適切なコンテンツ</string>
+    <string name="report_reason_face">顔が間違っている、または歪んでいる</string>
+    <string name="report_reason_quality">品質が低い結果</string>
+    <string name="report_reason_other">その他</string>
+    <string name="report_send">報告を送信</string>
+    <string name="report_subject">Hairify: AI Hair Changer — 画像の報告</string>
+    <string name="report_body_prefix">生成された画像を報告したいです。</string>
+
+    <!-- Settings -->
+    <string name="settings_title">設定</string>
+    <string name="settings_general">一般</string>
+    <string name="settings_support">サポート</string>
+    <string name="settings_language">言語</string>
+    <string name="settings_share">アプリを共有</string>
+    <string name="settings_rate">アプリを評価</string>
+    <string name="settings_feedback">フィードバックを送信</string>
+    <string name="settings_privacy">プライバシーポリシー</string>
+    <string name="settings_theme">テーマ</string>
+    <string name="theme_system">システム</string>
+    <string name="theme_light">ライト</string>
+    <string name="theme_dark">ダーク</string>
+    <string name="share_text">Hairify: AI Hair Changerを試してみよう — AIで髪型や髪色を変えられます！</string>
+    <string name="feedback_subject">Hairify: AI Hair Changer — フィードバック</string>
+
+    <!-- Language screen -->
+    <string name="language_title">言語</string>
+    <string name="language_subtitle">言語を選択してください</string>
+
+    <!-- Survey -->
+    <string name="survey_title">何を試してみたいですか？</string>
+    <string name="survey_subtitle">より良い提案のために教えてください</string>
+    <string name="survey_opt_color">髪色</string>
+    <string name="survey_opt_cut">ヘアスタイル</string>
+    <string name="survey_opt_short">ショートヘア</string>
+    <string name="survey_opt_long">ロングヘア</string>
+    <string name="language_confirm">確認</string>
+    <string name="survey2_title">あなたの雰囲気は？</string>
+    <string name="survey2_opt_natural">ナチュラル</string>
+    <string name="survey2_opt_bold">大胆</string>
+    <string name="survey2_opt_elegant">エレガント</string>
+    <string name="survey2_opt_trendy">トレンディ</string>
+    <string name="survey3_title">あなたの目標は？</string>
+    <string name="survey3_opt_newlook">新しい印象</string>
+    <string name="survey3_opt_event">特別なイベント</string>
+    <string name="survey3_opt_fun">楽しみのため</string>
+    <string name="survey3_opt_confidence">自信</string>
+
+    <!-- Onboarding -->
+    <string name="ob1_title">AIで髪型を変えよう</string>
+    <string name="ob1_desc">28種類以上のヘアスタイルとカラーを数秒で試せます。</string>
+    <string name="ob2_title">あなたの顔はそのまま</string>
+    <string name="ob2_desc">AIが本物の顔を保ったまま髪だけを変えます。</string>
+    <string name="ob3_title">保存 &amp; 共有</string>
+    <string name="ob3_desc">結果をギャラリーに保存して友達に見せましょう。</string>
+    <string name="ob_start">始める</string>
+
+    <!-- Permission -->
+    <string name="perm_title">最新情報をお届け</string>
+    <string name="perm_desc">新しいスタイルの登場や編集の完了をお知らせできるよう、通知を許可してください。</string>
+    <string name="perm_allow">許可する</string>
+    <string name="perm_switch">通知をオンにする</string>
+    <string name="perm_skip">後で</string>
+
+    <!-- Common -->
+    <string name="common_continue">続ける</string>
+    <string name="skip">スキップ</string>
+
+    <!-- a11y -->
+    <string name="cd_back">戻る</string>
+    <string name="cd_preset">ヘアスタイル</string>
+    <string name="cd_selected">選択済み</string>
+    <string name="cd_settings">設定</string>
+    <string name="cd_report">画像を報告</string>
+
+    <!-- Survey validation -->
+    <string name="survey_min_select">少なくとも1つ選択してください</string>
+</resources>

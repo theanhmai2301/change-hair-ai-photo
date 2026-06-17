@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hairify: AI Hair Changer</string>
+    <string name="picker_title">Hairify: AI Hair Changer</string>
+    <string name="picker_subtitle">Elige una foto para cambiar tu peinado</string>
+    <string name="tab_library">Galería</string>
+    <string name="tab_camera">Cámara</string>
+    <string name="upload_from_device">Subir desde el dispositivo</string>
+    <string name="sample_photos">FOTOS DE EJEMPLO</string>
+    <string name="open_camera">Abrir cámara</string>
+    <string name="retake">Repetir</string>
+    <string name="next">Siguiente</string>
+    <string name="camera_hint">Toma una foto de retrato para probar un nuevo peinado</string>
+    <string name="camera_failed">No se pudo abrir la cámara. Inténtalo de nuevo.</string>
+
+    <string name="edit_title">Cambiar peinado</string>
+    <string name="edit_subtitle">28 peinados y colores con IA</string>
+    <string name="tab_color">🎨 Color de pelo</string>
+    <string name="tab_cut">✂️ Peinado</string>
+    <string name="hint_color">Solo cambia el color, mantiene tu corte actual.</string>
+    <string name="hint_cut">Cambia el corte, mantiene tu color natural.</string>
+    <string name="apply_hair">Aplicar Hair AI</string>
+    <string name="badge_unedited">Sin editar</string>
+    <string name="badge_ai">Generado por IA</string>
+    <string name="restore">Restaurar original</string>
+    <string name="save">Guardar foto</string>
+    <string name="saved">Guardado en la galería</string>
+    <string name="save_failed">No se pudo guardar la foto.</string>
+    <string name="presets_error">No se pudieron cargar los peinados</string>
+    <string name="apply_error">Algo salió mal, inténtalo de nuevo.</string>
+
+    <string name="saved_title">Foto guardada</string>
+    <string name="saved_message">Tu foto se guardó en la galería. ¿Quieres elegir otra foto?</string>
+    <string name="saved_pick_another">Elegir otra</string>
+    <string name="stay_here">Quedarme</string>
+    <string name="discard_title">¿Descartar cambios?</string>
+    <string name="discard_message">Perderás el peinado que acabas de crear si sales ahora. ¿Seguro?</string>
+    <string name="discard_leave">Salir</string>
+
+    <string name="step_analyze">Analizando imagen…</string>
+    <string name="step_face">Detectando rostro…</string>
+    <string name="step_apply">Aplicando IA al cabello…</string>
+    <string name="step_finish">Ultimando detalles…</string>
+
+    <string name="report">Reportar</string>
+    <string name="report_title">Reportar esta imagen</string>
+    <string name="report_subtitle">Cuéntanos qué está mal con el resultado generado.</string>
+    <string name="report_reason_inappropriate">Contenido inapropiado</string>
+    <string name="report_reason_face">El rostro está mal o distorsionado</string>
+    <string name="report_reason_quality">Resultado de baja calidad</string>
+    <string name="report_reason_other">Otro</string>
+    <string name="report_send">Enviar reporte</string>
+    <string name="report_subject">Hairify: AI Hair Changer — Reporte de imagen</string>
+    <string name="report_body_prefix">Quiero reportar una imagen generada.</string>
+
+    <string name="settings_title">Ajustes</string>
+    <string name="settings_general">GENERAL</string>
+    <string name="settings_support">SOPORTE</string>
+    <string name="settings_language">Idioma</string>
+    <string name="settings_share">Compartir app</string>
+    <string name="settings_rate">Valorar app</string>
+    <string name="settings_feedback">Enviar comentarios</string>
+    <string name="settings_privacy">Política de privacidad</string>
+    <string name="settings_theme">Tema</string>
+    <string name="theme_system">Sistema</string>
+    <string name="theme_light">Claro</string>
+    <string name="theme_dark">Oscuro</string>
+    <string name="share_text">¡Prueba Hairify: AI Hair Changer — cambia tu peinado y color con IA!</string>
+    <string name="feedback_subject">Hairify: AI Hair Changer — Comentarios</string>
+
+    <string name="language_title">Idioma</string>
+    <string name="language_subtitle">Elige tu idioma</string>
+
+    <string name="survey_title">¿Qué quieres probar?</string>
+    <string name="survey_subtitle">Ayúdanos a recomendarte mejor</string>
+    <string name="survey_opt_color">Color de pelo</string>
+    <string name="survey_opt_cut">Corte</string>
+    <string name="survey_opt_short">Pelo corto</string>
+    <string name="survey_opt_long">Pelo largo</string>
+    <string name="language_confirm">Confirmar</string>
+    <string name="survey2_title">¿Cuál es tu estilo?</string>
+    <string name="survey2_opt_natural">Natural</string>
+    <string name="survey2_opt_bold">Atrevido</string>
+    <string name="survey2_opt_elegant">Elegante</string>
+    <string name="survey2_opt_trendy">De moda</string>
+    <string name="survey3_title">¿Cuál es tu meta?</string>
+    <string name="survey3_opt_newlook">Nuevo look</string>
+    <string name="survey3_opt_event">Evento especial</string>
+    <string name="survey3_opt_fun">Solo por diversión</string>
+    <string name="survey3_opt_confidence">Confianza</string>
+
+    <string name="ob1_title">Cambia tu cabello con IA</string>
+    <string name="ob1_desc">Prueba más de 28 peinados y colores en segundos.</string>
+    <string name="ob2_title">Tu rostro, intacto</string>
+    <string name="ob2_desc">La IA cambia el cabello manteniendo tu rostro real.</string>
+    <string name="ob3_title">Guarda y comparte</string>
+    <string name="ob3_desc">Guarda los resultados en tu galería y muéstralos a tus amigos.</string>
+    <string name="ob_start">Empezar</string>
+
+    <string name="perm_title">Mantente al día</string>
+    <string name="perm_desc">Permite las notificaciones para avisarte cuando lleguen nuevos estilos y tus ediciones estén listas.</string>
+    <string name="perm_allow">Permitir</string>
+    <string name="perm_switch">Activar notificaciones</string>
+    <string name="perm_skip">Ahora no</string>
+
+    <string name="common_continue">Continuar</string>
+    <string name="skip">Omitir</string>
+
+    <string name="cd_back">Atrás</string>
+    <string name="cd_preset">Peinado</string>
+    <string name="cd_selected">Seleccionado</string>
+    <string name="cd_settings">Ajustes</string>
+    <string name="cd_report">Reportar imagen</string>
+
+    <!-- Survey validation -->
+    <string name="survey_min_select">Selecciona al menos 1 opción</string>
+</resources>

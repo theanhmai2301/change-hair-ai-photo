@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Keep the first-open funnel out of cloud backup & device transfer (API 31+). -->
+<data-extraction-rules>
+    <cloud-backup>
+        <exclude domain="sharedpref" path="first_open.xml" />
+    </cloud-backup>
+    <device-transfer>
+        <exclude domain="sharedpref" path="first_open.xml" />
+    </device-transfer>
+</data-extraction-rules>

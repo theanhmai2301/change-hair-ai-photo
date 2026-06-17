@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/presetCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_preset_tile"
+        android:orientation="vertical"
+        android:padding="6dp">
+
+        <com.exo.hairstyleai.ui.widget.SquareFrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/presetImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_tile_image"
+                android:clipToOutline="true"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/cd_preset" />
+
+            <!-- color swatch ring (colors only) -->
+            <View
+                android:id="@+id/presetSwatch"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_gravity="bottom|end"
+                android:layout_margin="5dp"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+            <!-- selected veil + check -->
+            <FrameLayout
+                android:id="@+id/presetOverlay"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_check_overlay"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_check_circle"
+                    android:tint="@color/white"
+                    android:contentDescription="@string/cd_selected" />
+            </FrameLayout>
+        </com.exo.hairstyleai.ui.widget.SquareFrameLayout>
+
+        <TextView
+            android:id="@+id/presetName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="2dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="@string/app_name"
+            android:textColor="@color/text_muted"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            tools:text="Baby Blue" />
+    </LinearLayout>
+</LinearLayout>

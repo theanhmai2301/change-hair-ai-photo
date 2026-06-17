@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hairify: AI Hair Changer</string>
+
+    <!-- Picker screen -->
+    <string name="picker_title">Hairify: AI Hair Changer</string>
+    <string name="picker_subtitle">Pilih foto untuk mengubah gaya rambut Anda</string>
+    <string name="tab_library">Galeri</string>
+    <string name="tab_camera">Kamera</string>
+    <string name="upload_from_device">Unggah dari perangkat</string>
+    <string name="sample_photos">CONTOH FOTO</string>
+    <string name="open_camera">Buka kamera</string>
+    <string name="retake">Ambil ulang</string>
+    <string name="next">Berikutnya</string>
+    <string name="camera_hint">Ambil foto potret untuk mencoba gaya rambut baru</string>
+    <string name="camera_failed">Tidak dapat membuka kamera. Silakan coba lagi.</string>
+
+    <!-- Edit screen -->
+    <string name="edit_title">Ubah gaya rambut</string>
+    <string name="edit_subtitle">28 gaya rambut &amp; warna AI</string>
+    <string name="tab_color">🎨 Warna rambut</string>
+    <string name="tab_cut">✂️ Gaya rambut</string>
+    <string name="hint_color">Hanya mewarnai ulang — potongan rambut Anda tetap.</string>
+    <string name="hint_cut">Mengubah potongan — warna alami Anda tetap.</string>
+    <string name="apply_hair">Terapkan Hair AI</string>
+    <string name="badge_unedited">Belum diedit</string>
+    <string name="badge_ai">Dibuat oleh AI</string>
+    <string name="restore">Pulihkan asli</string>
+    <string name="save">Simpan foto</string>
+    <string name="saved">Disimpan ke galeri</string>
+    <string name="save_failed">Tidak dapat menyimpan foto.</string>
+    <string name="presets_error">Tidak dapat memuat gaya rambut</string>
+    <string name="apply_error">Terjadi kesalahan, silakan coba lagi.</string>
+
+    <!-- Dialogs -->
+    <string name="saved_title">Foto disimpan</string>
+    <string name="saved_message">Foto Anda telah disimpan ke galeri. Apakah Anda ingin memilih foto lain?</string>
+    <string name="saved_pick_another">Pilih yang lain</string>
+    <string name="stay_here">Tetap di sini</string>
+    <string name="discard_title">Buang editan?</string>
+    <string name="discard_message">Anda akan kehilangan gaya rambut yang baru saja dibuat jika keluar sekarang. Apakah Anda yakin?</string>
+    <string name="discard_leave">Keluar</string>
+
+    <!-- Processing steps -->
+    <string name="step_analyze">Menganalisis gambar…</string>
+    <string name="step_face">Mendeteksi wajah…</string>
+    <string name="step_apply">Menerapkan AI ke rambut…</string>
+    <string name="step_finish">Menyelesaikan detail…</string>
+
+    <!-- Report -->
+    <string name="report">Laporkan</string>
+    <string name="report_title">Laporkan gambar ini</string>
+    <string name="report_subtitle">Beri tahu kami apa yang salah dengan hasil yang dibuat.</string>
+    <string name="report_reason_inappropriate">Konten tidak pantas</string>
+    <string name="report_reason_face">Wajah salah atau terdistorsi</string>
+    <string name="report_reason_quality">Hasil berkualitas buruk</string>
+    <string name="report_reason_other">Lainnya</string>
+    <string name="report_send">Kirim laporan</string>
+    <string name="report_subject">Hairify: AI Hair Changer — Laporan gambar</string>
+    <string name="report_body_prefix">Saya ingin melaporkan gambar yang dibuat.</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Pengaturan</string>
+    <string name="settings_general">UMUM</string>
+    <string name="settings_support">DUKUNGAN</string>
+    <string name="settings_language">Bahasa</string>
+    <string name="settings_share">Bagikan aplikasi</string>
+    <string name="settings_rate">Beri nilai aplikasi</string>
+    <string name="settings_feedback">Kirim masukan</string>
+    <string name="settings_privacy">Kebijakan privasi</string>
+    <string name="settings_theme">Tema</string>
+    <string name="theme_system">Sistem</string>
+    <string name="theme_light">Terang</string>
+    <string name="theme_dark">Gelap</string>
+    <string name="share_text">Coba Hairify: AI Hair Changer — ubah gaya rambut dan warna Anda dengan AI!</string>
+    <string name="feedback_subject">Hairify: AI Hair Changer — Masukan</string>
+
+    <!-- Language screen -->
+    <string name="language_title">Bahasa</string>
+    <string name="language_subtitle">Pilih bahasa Anda</string>
+
+    <!-- Survey -->
+    <string name="survey_title">Apa yang ingin kamu coba?</string>
+    <string name="survey_subtitle">Bantu kami memberi saran yang lebih baik</string>
+    <string name="survey_opt_color">Warna rambut</string>
+    <string name="survey_opt_cut">Potongan</string>
+    <string name="survey_opt_short">Rambut pendek</string>
+    <string name="survey_opt_long">Rambut panjang</string>
+    <string name="language_confirm">Konfirmasi</string>
+    <string name="survey2_title">Apa gaya kamu?</string>
+    <string name="survey2_opt_natural">Natural</string>
+    <string name="survey2_opt_bold">Berani</string>
+    <string name="survey2_opt_elegant">Elegan</string>
+    <string name="survey2_opt_trendy">Tren</string>
+    <string name="survey3_title">Apa tujuan kamu?</string>
+    <string name="survey3_opt_newlook">Tampilan baru</string>
+    <string name="survey3_opt_event">Acara spesial</string>
+    <string name="survey3_opt_fun">Sekadar seru</string>
+    <string name="survey3_opt_confidence">Percaya diri</string>
+
+    <!-- Onboarding -->
+    <string name="ob1_title">Ubah rambut Anda dengan AI</string>
+    <string name="ob1_desc">Coba 28+ gaya rambut dan warna hanya dalam hitungan detik.</string>
+    <string name="ob2_title">Wajah Anda tetap terjaga</string>
+    <string name="ob2_desc">AI mengganti rambut sambil mempertahankan wajah asli Anda.</string>
+    <string name="ob3_title">Simpan &amp; bagikan</string>
+    <string name="ob3_desc">Simpan hasil ke galeri Anda dan tunjukkan kepada teman-teman.</string>
+    <string name="ob_start">Mulai</string>
+
+    <!-- Permission -->
+    <string name="perm_title">Tetap terhubung</string>
+    <string name="perm_desc">Izinkan notifikasi agar kami dapat memberi tahu Anda saat gaya baru tersedia dan editan Anda siap.</string>
+    <string name="perm_allow">Izinkan</string>
+    <string name="perm_switch">Aktifkan notifikasi</string>
+    <string name="perm_skip">Nanti saja</string>
+
+    <!-- Common -->
+    <string name="common_continue">Lanjutkan</string>
+    <string name="skip">Lewati</string>
+
+    <!-- a11y -->
+    <string name="cd_back">Kembali</string>
+    <string name="cd_preset">Gaya rambut</string>
+    <string name="cd_selected">Dipilih</string>
+    <string name="cd_settings">Pengaturan</string>
+    <string name="cd_report">Laporkan gambar</string>
+
+    <!-- Survey validation -->
+    <string name="survey_min_select">Pilih setidaknya 1 opsi</string>
+</resources>
