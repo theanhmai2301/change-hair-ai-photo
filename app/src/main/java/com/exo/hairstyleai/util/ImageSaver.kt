@@ -5,20 +5,41 @@ import android.content.Context
 import android.os.Build
 import android.os.Environment
 import android.provider.MediaStore
+import android.util.Base64
 import com.exo.hairstyleai.data.api.ApiClient
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import okhttp3.Request
 
-/** Downloads the generated image and writes it into the device gallery. */
+/** Resolves the generated image bytes and writes them into the device gallery. */
 object ImageSaver {
 
-    suspend fun saveToGallery(
+    /**
+     * Get the result bytes with as little network as possible: the backend returns
+     * the image inline as base64, so decode that (zero downloads); only fall back to
+     * fetching the hosted URL — a single time — when base64 is absent. The caller
+     * holds onto the bytes and reuses them for the preview and the save.
+     */
+    suspend fun fetchBytes(base64: String?, url: String?): ByteArray? = withContext(Dispatchers.IO) {
+        if (!base64.isNullOrEmpty()) {
+            // Tolerate a "data:image/png;base64,..." prefix.
+            val raw = base64.substringAfter("base64,", base64)
+            return@withContext try {
+                Base64.decode(raw, Base64.DEFAULT)
+            } catch (e: IllegalArgumentException) {
+                null
+            }
+        }
+        if (!url.isNullOrEmpty()) return@withContext downloadBytes(url)
+        null
+    }
+
+    /** Write already-in-hand image bytes into the gallery — no download. */
+    suspend fun saveBytes(
         context: Context,
-        imageUrl: String,
+        bytes: ByteArray,
         displayName: String,
     ): Boolean = withContext(Dispatchers.IO) {
-        val bytes = downloadBytes(imageUrl) ?: return@withContext false
         val resolver = context.contentResolver
 
         val values = ContentValues().apply {

@@ -35,6 +35,7 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.isActive
 import kotlinx.coroutines.launch
 import java.io.File
+import java.nio.ByteBuffer
 
 /** Screen 2 — apply hair cut / color presets, chaining results so layers stack. */
 class EditHairFragment : Fragment() {
@@ -68,6 +69,10 @@ class EditHairFragment : Fragment() {
     // The latest AI-generated image. Subsequent applies chain on top of it so a
     // color layer and a cut layer stack instead of each resetting to the original.
     private var resultUrl: String? = null
+
+    // Decoded result bytes (from the response's base64, or one download of its URL),
+    // reused for both preview and save so neither pays a repeat download.
+    private var resultBytes: ByteArray? = null
     private var appliedColorName: String? = null
     private var appliedCutName: String? = null
 
@@ -211,15 +216,21 @@ class EditHairFragment : Fragment() {
         applyJob = viewLifecycleOwner.lifecycleScope.launch {
             try {
                 val result = HairRepository.applyHair(input, preset.id, quality = "medium")
-                val url = result.url ?: throw IllegalStateException(getString(R.string.apply_error))
-                resultUrl = url
+                // The backend returns the image inline (base64) alongside a hosted URL.
+                // Grab the bytes once — base64 needs no download; a URL is fetched a single
+                // time here — then reuse them for both the preview and the save, so neither
+                // step pays a second (slow) network round-trip.
+                val bytes = ImageSaver.fetchBytes(result.image_base64, result.url)
+                    ?: throw IllegalStateException(getString(R.string.apply_error))
+                resultBytes = bytes
+                resultUrl = result.url // kept so the next layer can chain on the server
                 resultSaved = false
                 if (preset.category == HairCategory.COLOR) {
                     appliedColorName = preset.name
                 } else {
                     appliedCutName = preset.name
                 }
-                _binding?.previewImage?.load(url) {
+                _binding?.previewImage?.load(ByteBuffer.wrap(bytes)) {
                     crossfade(true)
                     allowHardware(false)
                 }
@@ -237,7 +248,7 @@ class EditHairFragment : Fragment() {
 
     private fun handleRestore() {
         if (isProcessing) return
-        if (resultUrl == null) return
+        if (resultBytes == null) return
         // Restore sits next to Save — confirm so an accidental tap can't wipe the edit.
         showRestoreDialog()
     }
@@ -260,6 +271,7 @@ class EditHairFragment : Fragment() {
         applyJob?.cancel()
         stopStepTicker()
         resultUrl = null
+        resultBytes = null
         appliedColorName = null
         appliedCutName = null
         saved = false
@@ -276,7 +288,7 @@ class EditHairFragment : Fragment() {
 
     private fun handleSave() {
         if (isProcessing) return
-        if (resultUrl == null) return
+        if (resultBytes == null) return
         if (Build.VERSION.SDK_INT < Build.VERSION_CODES.Q && !hasStoragePermission()) {
             requestStorage.launch(Manifest.permission.WRITE_EXTERNAL_STORAGE)
             return
@@ -285,10 +297,10 @@ class EditHairFragment : Fragment() {
     }
 
     private fun doSave() {
-        val url = resultUrl ?: return
+        val bytes = resultBytes ?: return
         viewLifecycleOwner.lifecycleScope.launch {
             val name = "hairstyle_${selectedPreset?.id ?: "ai"}_${System.currentTimeMillis()}.png"
-            val ok = ImageSaver.saveToGallery(requireContext(), url, name)
+            val ok = ImageSaver.saveBytes(requireContext(), bytes, name)
             if (_binding == null) return@launch
             if (ok) {
                 saved = true
@@ -326,7 +338,7 @@ class EditHairFragment : Fragment() {
     /** Back / exit guard: warn before discarding an unsaved generated result. */
     private fun attemptExit() {
         if (isProcessing) return // locked: can't leave / change the photo mid-generation
-        if (resultUrl != null && !resultSaved) showDiscardDialog() else navigateBack()
+        if (resultBytes != null && !resultSaved) showDiscardDialog() else navigateBack()
     }
 
     private fun showSavedDialog() {
@@ -389,7 +401,7 @@ class EditHairFragment : Fragment() {
 
     private fun render() {
         val b = _binding ?: return
-        val isEdited = resultUrl != null
+        val isEdited = resultBytes != null
         val canEdit = isEdited && !isProcessing
 
         b.previewImage.alpha = if (isProcessing) 0.45f else 1f
