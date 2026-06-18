@@ -132,4 +132,9 @@
     <string name="home_title">✨ 改变你的发型</string>
     <string name="home_title_accent">用 AI</string>
     <string name="home_subtitle">几秒钟打造惊艳发型</string>
+
+    <!-- Restore confirm -->
+    <string name="restore_title">恢复原图？</string>
+    <string name="restore_message">你刚创建的发型将会丢失。</string>
+    <string name="restore_confirm">恢复</string>
 </resources>

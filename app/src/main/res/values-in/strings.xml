@@ -132,4 +132,9 @@
     <string name="home_title">✨ Ubah gaya rambut Anda</string>
     <string name="home_title_accent">dengan AI</string>
     <string name="home_subtitle">Buat gaya rambut menakjubkan dalam hitungan detik</string>
+
+    <!-- Restore confirm -->
+    <string name="restore_title">Pulihkan asli?</string>
+    <string name="restore_message">Anda akan kehilangan gaya rambut yang baru dibuat.</string>
+    <string name="restore_confirm">Pulihkan</string>
 </resources>

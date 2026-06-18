@@ -132,4 +132,9 @@
     <string name="home_title">✨ Verändere deine Frisur</string>
     <string name="home_title_accent">mit KI</string>
     <string name="home_subtitle">Erstelle tolle Frisuren in Sekunden</string>
+
+    <!-- Restore confirm -->
+    <string name="restore_title">Original wiederherstellen?</string>
+    <string name="restore_message">Du verlierst die gerade erstellte Frisur.</string>
+    <string name="restore_confirm">Wiederherstellen</string>
 </resources>

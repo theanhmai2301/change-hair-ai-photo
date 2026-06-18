@@ -59,23 +59,18 @@
 
     <!-- ── Hero ── -->
     <TextView
+        android:id="@+id/heroTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="26dp"
-        android:lineSpacingMultiplier="1.05"
-        android:text="@string/home_title"
+        android:autoSizeMaxTextSize="28sp"
+        android:autoSizeMinTextSize="16sp"
+        android:autoSizeTextType="uniform"
+        android:ellipsize="end"
+        android:maxLines="1"
         android:textColor="@color/text_primary"
-        android:textSize="28sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/heroAccent"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/home_title_accent"
-        android:textColor="@color/accent"
-        android:textSize="28sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        tools:text="✨ Đổi kiểu tóc với AI" />
 
     <TextView
         android:layout_width="match_parent"
@@ -95,41 +90,12 @@
         android:clipToOutline="true">
 
         <ImageView
+            android:id="@+id/showcaseImage"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:contentDescription="@null"
             android:scaleType="centerCrop"
             android:src="@drawable/ai_photo_change_hair" />
-
-        <!-- AI tag -->
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="top|end"
-            android:layout_margin="14dp"
-            android:background="@drawable/bg_ai_pill"
-            android:gravity="center_vertical"
-            android:orientation="horizontal"
-            android:paddingHorizontal="12dp"
-            android:paddingVertical="7dp">
-
-            <ImageView
-                android:layout_width="14dp"
-                android:layout_height="14dp"
-                android:src="@drawable/ic_sparkles"
-                android:tint="@color/white"
-                android:contentDescription="@null" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="6dp"
-                android:text="AI"
-                android:textColor="@color/white"
-                android:textSize="13sp"
-                android:textStyle="bold"
-                tools:ignore="HardcodedText" />
-        </LinearLayout>
     </FrameLayout>
 
     <!-- ── Upload From Gallery ── -->
@@ -177,7 +143,7 @@
             android:layout_width="20dp"
             android:layout_height="20dp"
             android:src="@drawable/ic_camera"
-            android:tint="@color/text_primary"
+            android:tint="@color/btn2_text"
             android:contentDescription="@null" />
 
         <TextView
@@ -185,8 +151,39 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:text="@string/open_camera"
-            android:textColor="@color/text_primary"
+            android:textColor="@color/btn2_text"
             android:textSize="16sp"
             android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- ── Next (shown once a photo is picked, so it can be reviewed / changed) ── -->
+    <LinearLayout
+        android:id="@+id/nextButton"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/bg_btn_primary"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        tools:visibility="visible">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/next"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="8dp"
+            android:src="@drawable/ic_arrow_right"
+            android:tint="@color/white"
+            android:contentDescription="@null" />
     </LinearLayout>
 </LinearLayout>

@@ -132,4 +132,9 @@
     <string name="home_title">✨ 헤어스타일을 바꿔보세요</string>
     <string name="home_title_accent">AI로</string>
     <string name="home_subtitle">몇 초 만에 멋진 헤어스타일을 만들어 보세요</string>
+
+    <!-- Restore confirm -->
+    <string name="restore_title">원본 복원?</string>
+    <string name="restore_message">방금 만든 헤어스타일이 사라집니다.</string>
+    <string name="restore_confirm">복원</string>
 </resources>

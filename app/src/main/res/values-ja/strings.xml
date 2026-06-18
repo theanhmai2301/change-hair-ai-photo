@@ -132,4 +132,9 @@
     <string name="home_title">✨ 髪型を変えよう</string>
     <string name="home_title_accent">AIで</string>
     <string name="home_subtitle">数秒で素敵なヘアスタイルを作成</string>
+
+    <!-- Restore confirm -->
+    <string name="restore_title">元に戻しますか？</string>
+    <string name="restore_message">作成したヘアスタイルが失われます。</string>
+    <string name="restore_confirm">元に戻す</string>
 </resources>

@@ -2,7 +2,7 @@
 <!-- "Not ready yet" CTA look: flat surface, still tappable (shows a hint toast). -->
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
     android:shape="rectangle">
-    <solid android:color="@color/surface" />
+    <solid android:color="@color/surface_deep" />
     <stroke android:width="1.5dp" android:color="@color/hairline" />
-    <corners android:radius="18dp" />
+    <corners android:radius="24dp" />
 </shape>

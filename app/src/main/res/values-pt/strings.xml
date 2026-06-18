@@ -132,4 +132,9 @@
     <string name="home_title">✨ Transforme seu penteado</string>
     <string name="home_title_accent">com IA</string>
     <string name="home_subtitle">Crie penteados incríveis em segundos</string>
+
+    <!-- Restore confirm -->
+    <string name="restore_title">Restaurar original?</string>
+    <string name="restore_message">Você vai perder o penteado que acabou de criar.</string>
+    <string name="restore_confirm">Restaurar</string>
 </resources>

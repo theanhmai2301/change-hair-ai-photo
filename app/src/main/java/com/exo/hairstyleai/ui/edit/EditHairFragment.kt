@@ -105,7 +105,10 @@ class EditHairFragment : Fragment() {
             navigateBack()
             return
         }
-        binding.previewImage.load(src.model) { crossfade(true) }
+        binding.previewImage.load(src.model) {
+            crossfade(true)
+            allowHardware(false)
+        }
 
         initDots()
 
@@ -216,7 +219,10 @@ class EditHairFragment : Fragment() {
                 } else {
                     appliedCutName = preset.name
                 }
-                _binding?.previewImage?.load(url) { crossfade(true) }
+                _binding?.previewImage?.load(url) {
+                    crossfade(true)
+                    allowHardware(false)
+                }
             } catch (c: CancellationException) {
                 throw c
             } catch (e: Exception) {
@@ -232,6 +238,25 @@ class EditHairFragment : Fragment() {
     private fun handleRestore() {
         if (isProcessing) return
         if (resultUrl == null) return
+        // Restore sits next to Save — confirm so an accidental tap can't wipe the edit.
+        showRestoreDialog()
+    }
+
+    private fun showRestoreDialog() {
+        AppDialog.show(
+            context = requireContext(),
+            iconRes = R.drawable.ic_alert,
+            iconTintRes = R.color.danger,
+            title = getString(R.string.restore_title),
+            message = getString(R.string.restore_message),
+            positiveText = getString(R.string.restore_confirm),
+            negativeText = getString(R.string.stay_here),
+            positiveDanger = true,
+            onPositive = { doRestore() },
+        )
+    }
+
+    private fun doRestore() {
         applyJob?.cancel()
         stopStepTicker()
         resultUrl = null
@@ -240,7 +265,12 @@ class EditHairFragment : Fragment() {
         saved = false
         resultSaved = false
         isProcessing = false
-        source?.let { _binding?.previewImage?.load(it.model) { crossfade(true) } }
+        source?.let { s ->
+            _binding?.previewImage?.load(s.model) {
+                crossfade(true)
+                allowHardware(false)
+            }
+        }
         render()
     }
 

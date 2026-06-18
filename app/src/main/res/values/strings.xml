@@ -129,7 +129,12 @@
     <string name="survey_min_select">Please select at least 1 option</string>
 
     <!-- Home -->
-    <string name="home_title">✨ Transform your hairstyle</string>
+    <string name="home_title">✨ Change hairstyle</string>
     <string name="home_title_accent">with AI</string>
     <string name="home_subtitle">Create stunning hairstyles in seconds</string>
+
+    <!-- Restore confirm -->
+    <string name="restore_title">Restore original?</string>
+    <string name="restore_message">You\'ll lose the hairstyle you just created.</string>
+    <string name="restore_confirm">Restore</string>
 </resources>
