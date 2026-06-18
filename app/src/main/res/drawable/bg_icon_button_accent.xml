@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Active accent icon button: stronger translucent accent fill + accent border. -->
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
     android:shape="rectangle">
-    <solid android:color="@color/accent_25" />
-    <stroke android:width="1.5dp" android:color="@color/accent" />
+    <gradient
+        android:angle="315"
+        android:startColor="@color/accent"
+        android:endColor="@color/accent_dark"
+        android:type="linear" />
     <corners android:radius="12dp" />
 </shape>

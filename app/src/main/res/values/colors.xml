@@ -28,4 +28,7 @@
     <!-- On-accent text / icons stay white in both themes -->
     <color name="white">#FFFFFF</color>
     <color name="hairline">#1A000000</color>
+
+    <!-- Splash / icon dark backdrop (matches the app-icon image) -->
+    <color name="splash_bg">#0A0530</color>
 </resources>
