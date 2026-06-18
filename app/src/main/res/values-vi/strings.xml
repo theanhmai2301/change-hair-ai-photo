@@ -24,7 +24,7 @@
     <string name="hint_cut">Đổi kiểu tóc, giữ màu tóc tự nhiên.</string>
     <string name="apply_hair">Áp dụng Hair AI</string>
     <string name="badge_unedited">Chưa chỉnh sửa</string>
-    <string name="badge_ai">AI Generated</string>
+    <string name="badge_ai">Tạo bởi AI</string>
     <string name="restore">Khôi phục ảnh gốc</string>
     <string name="save">Lưu ảnh</string>
     <string name="saved">Đã lưu ảnh vào thư viện</string>

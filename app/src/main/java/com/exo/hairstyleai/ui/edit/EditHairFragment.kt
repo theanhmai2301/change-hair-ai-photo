@@ -171,7 +171,8 @@ class EditHairFragment : Fragment() {
                 val bb = _binding ?: return@launch
                 bb.presetsLoading.isVisible = false
                 bb.presetsError.isVisible = true
-                bb.presetsError.text = e.message ?: getString(R.string.presets_error)
+                // Localized message only — never surface the raw exception string to users.
+                bb.presetsError.text = getString(R.string.presets_error)
             }
         }
     }
@@ -237,7 +238,8 @@ class EditHairFragment : Fragment() {
             } catch (c: CancellationException) {
                 throw c
             } catch (e: Exception) {
-                showError(e.message ?: getString(R.string.apply_error))
+                // Show the localized message, not the raw (English/technical) exception text.
+                showError(getString(R.string.apply_error))
             } finally {
                 isProcessing = false
                 stopStepTicker()
