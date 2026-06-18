@@ -126,7 +126,7 @@
     <string name="cd_report">Báo cáo ảnh</string>
 
     <!-- Survey validation -->
-    <string name="survey_min_select">Hãy chọn ít nhất 1 lựa chọn</string>
+    <string name="survey_min_select">Hãy chọn ít nhất 2 lựa chọn</string>
 
     <!-- Home -->
     <string name="home_title">✨ Đổi kiểu tóc</string>

@@ -126,7 +126,7 @@
     <string name="cd_report">Laporkan gambar</string>
 
     <!-- Survey validation -->
-    <string name="survey_min_select">Pilih setidaknya 1 opsi</string>
+    <string name="survey_min_select">Pilih setidaknya 2 opsi</string>
 
     <!-- Home -->
     <string name="home_title">✨ Ubah gaya rambut Anda</string>

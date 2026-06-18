@@ -126,7 +126,7 @@
     <string name="cd_report">Bild melden</string>
 
     <!-- Survey validation -->
-    <string name="survey_min_select">Bitte wähle mindestens 1 Option</string>
+    <string name="survey_min_select">Bitte wähle mindestens 2 Optionen</string>
 
     <!-- Home -->
     <string name="home_title">✨ Verändere deine Frisur</string>

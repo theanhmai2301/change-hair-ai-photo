@@ -126,7 +126,7 @@
     <string name="cd_report">画像を報告</string>
 
     <!-- Survey validation -->
-    <string name="survey_min_select">少なくとも1つ選択してください</string>
+    <string name="survey_min_select">少なくとも2つ選択してください</string>
 
     <!-- Home -->
     <string name="home_title">✨ 髪型を変えよう</string>

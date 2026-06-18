@@ -22,5 +22,5 @@ object SurveyContent {
     )
 
     /** How many topics must stay selected to leave the survey. */
-    const val MIN_TO_CONTINUE = 1
+    const val MIN_TO_CONTINUE = 2
 }

@@ -126,7 +126,7 @@
     <string name="cd_report">Denunciar imagem</string>
 
     <!-- Survey validation -->
-    <string name="survey_min_select">Selecione pelo menos 1 opção</string>
+    <string name="survey_min_select">Selecione pelo menos 2 opções</string>
 
     <!-- Home -->
     <string name="home_title">✨ Transforme seu penteado</string>

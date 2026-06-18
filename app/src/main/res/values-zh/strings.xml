@@ -126,7 +126,7 @@
     <string name="cd_report">举报图片</string>
 
     <!-- Survey validation -->
-    <string name="survey_min_select">请至少选择 1 项</string>
+    <string name="survey_min_select">请至少选择 2 项</string>
 
     <!-- Home -->
     <string name="home_title">✨ 改变你的发型</string>

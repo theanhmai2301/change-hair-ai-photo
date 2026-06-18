@@ -126,7 +126,7 @@
     <string name="cd_report">छवि की रिपोर्ट करें</string>
 
     <!-- Survey validation -->
-    <string name="survey_min_select">कृपया कम से कम 1 विकल्प चुनें</string>
+    <string name="survey_min_select">कृपया कम से कम 2 विकल्प चुनें</string>
 
     <!-- Home -->
     <string name="home_title">✨ अपना हेयरस्टाइल बदलें</string>

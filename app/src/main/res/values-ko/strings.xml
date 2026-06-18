@@ -126,7 +126,7 @@
     <string name="cd_report">이미지 신고</string>
 
     <!-- Survey validation -->
-    <string name="survey_min_select">최소 1개 이상 선택해 주세요</string>
+    <string name="survey_min_select">최소 2개 이상 선택해 주세요</string>
 
     <!-- Home -->
     <string name="home_title">✨ 헤어스타일을 바꿔보세요</string>

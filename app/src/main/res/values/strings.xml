@@ -126,7 +126,7 @@
     <string name="cd_report">Report image</string>
 
     <!-- Survey validation -->
-    <string name="survey_min_select">Please select at least 1 option</string>
+    <string name="survey_min_select">Please select at least 2 options</string>
 
     <!-- Home -->
     <string name="home_title">✨ Change hairstyle</string>

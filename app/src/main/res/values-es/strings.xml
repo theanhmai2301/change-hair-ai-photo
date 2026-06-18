@@ -113,7 +113,7 @@
     <string name="cd_report">Reportar imagen</string>
 
     <!-- Survey validation -->
-    <string name="survey_min_select">Selecciona al menos 1 opción</string>
+    <string name="survey_min_select">Selecciona al menos 2 opciones</string>
 
     <!-- Home -->
     <string name="home_title">✨ Transforma tu peinado</string>
