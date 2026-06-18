@@ -99,7 +99,7 @@
             android:layout_height="match_parent"
             android:contentDescription="@null"
             android:scaleType="centerCrop"
-            android:src="@drawable/home_face" />
+            android:src="@drawable/ai_photo_change_hair" />
 
         <!-- AI tag -->
         <LinearLayout
